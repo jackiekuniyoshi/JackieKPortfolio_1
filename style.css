@@ -1,0 +1,33 @@
+.bodystyle {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 90%;
+    padding: 5%;
+    margin: 5%;
+    color: rgb(45, 61, 61);
+}
+
+.jackiestyle {
+    color: rgb(45, 61, 61);
+}
+
+
+.SocilaMedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.colorblock1 {
+    background: #A3D0D6;
+    height: 10px;
+    width: 30%;
+}
+
+.profileimage {
+    height: 30%;
+    width: 30%;
+}
+
+.name {
+
+}
