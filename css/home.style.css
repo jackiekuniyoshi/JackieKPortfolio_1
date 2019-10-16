@@ -1,10 +1,20 @@
 body {
-    margin: 10px;
-    padding: 10px;
     text-align: center; 
     font-family: 'open sans', sans-serif;
     color: #2d3d3d; 
     background: #f7f5f0;
+}
+
+h1 {
+  color: #2d3d3d;
+}
+
+h2 {
+  color: #2d3d3d;
+}
+
+h3 {
+  color: #2d3d3d;
 }
 
 a {
@@ -60,4 +70,42 @@ nav {
   .navtab {
       padding: 10px;
       margin: 10px;
+  }
+
+
+
+
+  .grid {
+    display: grid;
+    height: 500px;
+    width: 750px;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+      "paws education"
+      "dish getgoin"
+      ;
+  }
+
+  .gridarea
+
+  
+  #paws {
+    grid-area: paws;
+    background-image: url("../images/paws-dogreading.jpeg");
+  }
+  #education {
+    grid-area: education;
+  }
+  #dish {
+    grid-area: dish;
+  }
+  #getgoin {
+    grid-area: getgoin;
+  }
+  
+  .grid > div {
+   background-color:lightgrey;
+   border: 1px black solid;
   }
