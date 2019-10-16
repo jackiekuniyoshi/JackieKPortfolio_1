@@ -1,28 +1,30 @@
 body {
-    margin: 0;
-    padding: 0;
+    margin: 50px;
+    padding: 10px;
     text-align: center; 
     font-family: 'open sans', sans-serif;
-    color: #707070; 
+    color: red; 
     background: #f7f5f0;
 }
 
 .mainnav {
     width: 100%;
-    background: pink;
-    min-height: 30px;
+    background:red;
+    min-height: 50px;
     padding: 10px;
     position: fixed;
     text-align: right;
+    color: red;
 }
 
 .nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     font-weight: 700;
     list-style-type: none;
     margin: 0 auto;
     padding: 0;
+    color: red;
 }
 
 .nav .name {
