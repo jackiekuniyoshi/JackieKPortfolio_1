@@ -11,11 +11,10 @@ body {
     color: #2d3d3d;
 }
 
-
 .SocilaMedia {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .colorblock1 {
@@ -27,8 +26,4 @@ body {
 .profileimage {
     height: 30%;
     width: 30%;
-}
-
-.name {
-
 }
