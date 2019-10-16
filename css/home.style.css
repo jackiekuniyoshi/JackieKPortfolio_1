@@ -3,7 +3,7 @@ body {
     padding: 10px;
     text-align: center; 
     font-family: 'open sans', sans-serif;
-    color #2d3d3d; 
+    color: #2d3d3d; 
     background: #f7f5f0;
 }
 
@@ -29,7 +29,6 @@ a {
     justify-content: left;
     align-items: center;
 }
-  }
 
   .logo img {
     margin: 15px;
