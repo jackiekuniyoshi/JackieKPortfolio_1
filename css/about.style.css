@@ -1,28 +1,67 @@
 body {
-    margin: 10px;
+    margin: 20px;
     padding: 10px;
     font-family: 'open sans', sans-serif;
     color: #2d3d3d; 
     background: #f7f5f0;
 }
 
+/*
+h1 {
+    margin: 10px;
+    padding: 10px;
+}
+
+h2 {
+    margin: 10px;
+    padding: 10px;
+}
+*/
+
+
+
 .jackiestyle {
     color: #2d3d3d;
 }
 
-.SocilaMedia {
+.paragraphpadding {
+    margin: 10px;
+    padding: 10px;
+}
+
+footer {
+    height: 200px;
+    width: 100%;
+    background: #f7f5f0;
+}
+
+.SocialMedia {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    /*margin: 10px;
+    padding: 10px;*/
+}
+
+
+.socialmedia_pad {
+    margin: 10px;
+    padding: 10px;
 }
 
 .colorblock1 {
     background: #A3D0D6;
-    height: 10px;
+    height: 1px;
     width: 30%;
+    margin: 10px;
+    padding: 10px;
 }
 
 .profileimage {
     height: 30%;
     width: 30%;
+}
+
+.connectpad {
+    height: 100px;
 }
