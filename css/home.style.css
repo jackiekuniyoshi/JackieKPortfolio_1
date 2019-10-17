@@ -73,6 +73,20 @@ nav {
   }
 
 
+.workheading  {
+  text-align: center;
+  width: 300px;
+  margin: 50px auto;
+}
+
+.workhead h2 {
+  color: aquamarine;
+}
+
+.casestudies {
+  display: flex;
+  justify-content: center;
+}
 
 
   .grid {
@@ -88,24 +102,41 @@ nav {
       ;
   }
 
-  .gridarea
-
+  .gridarea {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    cursor: pointer;
+    display: grid;
+    align-content: end;
+  }
   
   #paws {
     grid-area: paws;
-    background-image: url("../images/paws-dogreading.jpeg");
+    background-image: url("../images/paws-dogreading.jpg");
+    color: white;
   }
+
   #education {
     grid-area: education;
+    background-image: url("../images/doed-education.jpg");
+    color: white;
   }
+
   #dish {
     grid-area: dish;
+    background-image: url("../images/dishit_kitchen.jpg");
+    color: white;
   }
+
   #getgoin {
     grid-area: getgoin;
+    background-image: url("../images/images.travel.png");
+    color: white;
   }
   
   .grid > div {
    background-color:lightgrey;
-   border: 1px black solid;
+   border: 1px teal;
   }
