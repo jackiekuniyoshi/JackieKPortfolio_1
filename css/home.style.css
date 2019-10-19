@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
 body {
     text-align: center; 
     font-family: 'open sans', sans-serif;
@@ -29,12 +36,12 @@ a {
 nav {
   height: 75px;
   width: 100%;
-  margin: 10px;
+  margin: 10px 50px auto auto;
   padding: 10px;
 }
 
 #navBar {
-    display: flex;
+    display: flex;s
     flex-direction: row;
     margin: 10px;
     padding: 10px;
@@ -57,7 +64,7 @@ nav {
 
   #navigation {
     display: flex;
-    width: 100%;
+    width: 85%;
     align-items: center;
     justify-content: flex-end;
   }
@@ -83,16 +90,17 @@ nav {
   color: aquamarine;
 }
 
-.casestudies {
+/*.casestudies {
   display: flex;
   justify-content: center;
-}
+}*/
 
 
   .grid {
+    margin: auto auto;
     display: grid;
-    height: 500px;
-    width: 750px;
+    height: 60%;
+    width: 80%;
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -109,7 +117,21 @@ nav {
     margin: 5px;
     cursor: pointer;
     display: grid;
-    align-content: end;
+    height: 250px;
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    justify-items: flex-end;
+    opacity: 0;
+    background-color: #A3D0D6;
+    height: 100%;
+    width: 100%;
+  }
+
+  .content:hover {
+    opacity: .9;
   }
   
   #paws {
