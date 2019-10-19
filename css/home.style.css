@@ -29,7 +29,7 @@ a {
     color: #2d3d3d;
   }
   a:hover {
-    color: #A3D0D6;
+    color: red;
   }
 
 
@@ -123,9 +123,11 @@ nav {
   .content {
     display: flex;
     align-items: center;
-    justify-items: flex-end;
+    /*justify-items: center;*/
+    padding: 50px;
+    margin: auto;
     opacity: 0;
-    background-color: #A3D0D6;
+    background-color:red;
     height: 100%;
     width: 100%;
   }
