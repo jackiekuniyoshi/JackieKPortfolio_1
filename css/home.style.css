@@ -99,7 +99,7 @@ nav {
   .grid {
     margin: auto auto;
     display: grid;
-    height: 60%;
+    height: 100%;
     width: 80%;
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr;
