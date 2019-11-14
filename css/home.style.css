@@ -135,6 +135,14 @@ nav {
   .content:hover {
     opacity: .9;
   }
+
+  .boxTitle {
+    font-size: 16px;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end
+  }
   
   #paws {
     grid-area: paws;
